@@ -609,7 +609,7 @@ button:hover {
 }
 
 /*---- Responsive ---*/
-@media (max-width: 880px) { 
+@media (max-width: 768px) { 
     header {
         padding: 10px;
         text-align: left;
@@ -705,8 +705,4 @@ button:hover {
         flex-direction: column;
         gap: 10px;
     }
-
-
-
-
 }
