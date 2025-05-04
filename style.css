@@ -25,7 +25,6 @@ html, body {
     padding: 0;
     background-color: var(--fondo);
     color: var(--texto);
-    min-width: 680px;
     display: flex;
     flex-direction: column;
 }
@@ -608,7 +607,7 @@ button:hover {
     }
 }
 
-/*---- Responsive ---*/
+/*---- Responsive para tablets---*/
 @media (max-width: 768px) { 
     header {
         padding: 10px;
@@ -704,5 +703,24 @@ button:hover {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+/*---- Responsive para celulares---*/
+@media (max-width: 480px) { 
+    html, body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .tabla_materias{
+        margin: auto;
+    }
+    .tareas_materias{
+        margin: auto;
+    }
+    .tarjeta_sobre_mi{
+        margin: auto;
     }
 }
